@@ -1,0 +1,40 @@
+.file__wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.file__drop-area-start {
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 35vh;
+    font-size: 2.4rem;
+    border: 5px dashed white;
+    background-color: #fcf3f9;
+}
+
+.file__drop-area-leave {
+    font-weight: 700;
+    background-color: #fcedf8;
+    border: 5px dashed black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 35vh;
+    font-size: 2.4rem;
+}
+
+input {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+

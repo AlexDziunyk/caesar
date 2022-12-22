@@ -1,0 +1,62 @@
+body {
+  padding: 2em;
+}
+
+.app__chars {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1.2em;
+}
+
+.app__selector-wrapper {
+  margin-top: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+
+.app__option-main {
+  background-color: #fcedf8;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid grey;
+  padding: 10px 0;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.app__options {
+  background-color: #fcedf8;
+  position: absolute;
+ 
+}
+
+
+.app__option {
+ 
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 10px 0;
+  width: 150px;
+}
+
+.is-open-main {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.is-open {
+  border-radius: 0 0 10px 10px;
+}
+
+.app__sum {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
